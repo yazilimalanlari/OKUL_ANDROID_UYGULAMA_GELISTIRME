@@ -40,10 +40,10 @@ Ad, soyad, yaş gibi bilgilerin yer alacağı tek sayfalık Android mobil uygula
 
 ### Sonuç
 
-    Uygulamanın geliştirilmesi tamamlandı.
+Uygulamanın geliştirilmesi tamamlandı.
 
 #### Klasörler
-project/ Uygulamanın kaynak kodları.
-screenshots/ Uygulamadan alınan ekran görüntüleri. (App.mp4, App.gif)
+* project/ Uygulamanın kaynak kodları.
+* screenshots/ Uygulamadan alınan ekran görüntüleri ve App.mp4, App.gif dosyaları.
 
 ![](./screenshots/App.gif)
