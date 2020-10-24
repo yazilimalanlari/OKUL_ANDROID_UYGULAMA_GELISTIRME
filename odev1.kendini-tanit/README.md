@@ -14,7 +14,7 @@ Ad, soyad, yaş gibi bilgilerin yer alacağı tek sayfalık Android mobil uygula
 * Memleket
 * İş Deneyimleri
 
-### Yapılandırma, ayarlarda ve yapılacaklar
+### Yapılandırma, ayarlar ve yapılacaklar
 
 1. Uygulama içerisinde yer alacak static string ifadelerin values/strings.xml dosyasında tanımlanması.
 2. Uygulama içerisinde yer alacak renklerin values/colors.xml dosyasında tanımlanması.
