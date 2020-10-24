@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Ödev 1 - Kendini Tanıt</string>
+    <string name="textFullName">Abdulbaki Zırıh</string>
+    <string name="myWorkExperience">İş Deneyimlerim</string>
+    <string name="age">Yaş:</string>
+    <string name="textAge">21</string>
+    <string name="highSchoolInfo">Lise Bilgisi:</string>
+    <string name="textHightSchoolInfo">Açık lise mevzunu</string>
+    <string name="homeLand">Memleket:</string>
+    <string name="textHomeLand">Of/Trabzon</string>
+    <string name="profileImageDescription">Profil Görseli</string>
+    <string name="myWorkExperienceTitle">İş Deneyimlerim</string>
+    <string name="textMyWorkExperience">
+        Yıllardır yazılım ile ilgileniyorum ve bu alanda kendimi geliştirmeye çalışıyorum.
+        Yıllar içerisinde farklı dil ve teknolojiler ile geliştirme yaptım bunlardan bazıları.
+
+        \n\n
+        * PHP\n
+        * JavaScript(Node.js, NestJS, Vue.js, Nuxt.js, React.js)\n
+        * HTML5\n
+        * CSS3(SCSS)\n
+        * Java, Kotlin\n
+        * C, C++
+
+        \n\n
+        Tabi bu dil ve teknolojilerin hepsine aynı derecede hakim değilim.
+        Daha çok web alanında kendimi geliştirdim.
+        Forum, E-Ticaret siteleri gibi çalışmalarım oldu/oluyor.
+        Ara sıra freelance işler alıyorum.
+        \n\n
+        Kod yazmayı seviyorum&#8230;
+    </string>
+</resources>
