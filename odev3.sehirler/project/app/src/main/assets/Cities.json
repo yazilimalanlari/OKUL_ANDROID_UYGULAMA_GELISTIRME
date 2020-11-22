@@ -1,0 +1,72 @@
+[
+  {
+    "name": "İstanbul",
+    "image": "istanbul",
+    "population": "15.52 Milyon",
+    "climate": "Akdeniz, Karadeniz, Balkan ve Anadolu kara iklimlerini taşır.",
+    "geographicInformation": "Hem Avrupa hemde Asya kıtalarında bulunur."
+  },
+  {
+    "name": "Antalya",
+    "image": "antalya",
+    "population": "2.26 Milyon",
+    "climate": "Akdeniz iklimi",
+    "geographicInformation": "Akdeniz bölgesi'nin batısında bulunur."
+  },
+  {
+    "name": "Bingöl",
+    "image": "bingol",
+    "population": "279 Bin",
+    "climate": "Yazları sıcak, kışları soğuk geçmektedir.",
+    "geographicInformation": "Doğu Anadolu bölgesi yukarı fırat bölümünde yer alır."
+  },
+  {
+    "name": "Balıkesir",
+    "image": "balikesir",
+    "population": "1.228 Milyon",
+    "climate": "Akdeniz iklimi",
+    "geographicInformation": "Marmara bölgesinde yer alır."
+  },
+  {
+    "name": "Edirne",
+    "image": "edirne",
+    "population": "413 Bin",
+    "climate": "Akdeniz ve Kara iklimleri",
+    "geographicInformation": "Marmara bölgesinin trakya alanında yer alır."
+  },
+  {
+    "name": "Giresun",
+    "image": "giresun",
+    "population": "448 Bin",
+    "climate": "Kıyılar ılık ve yağışlıdır.",
+    "geographicInformation": "Doğu Karadeniz bölgesinde yer almaktadır."
+  },
+  {
+    "name": "Kocaeli",
+    "image": "kocaeli",
+    "population": "1.953 Milyon",
+    "climate": "Yazları sıcak ve az yağışlı, kışlar yağışlı.",
+    "geographicInformation": "Kuzey kesiminde tek tek kütleler halinde tepeler yer alır."
+  },
+  {
+    "name": "Konya",
+    "image": "konya",
+    "population": "2.232 Milyon",
+    "climate": "Kara iklimi",
+    "geographicInformation": "Anadolu yarımadasının ortasında bulunan kent İç Anadolu bölgesinin güneyinde yer almaktadır."
+  },
+  {
+    "name": "Trabzon",
+    "image": "trabzon",
+    "population": "808 Bin",
+    "climate": "Karadeniz iklimi",
+    "geographicInformation": "Deniz seviyesinden başlayarak güneye doğru artan yükseklik bölgede 3000 metreyi bulur."
+  },
+  {
+    "name": "Kütahya",
+    "image": "kutahya",
+    "population": "579 Bin",
+    "climate": "İç Anadolu ve Marmara iklimleri arasında geçiş özelliği gösterir.",
+    "geographicInformation": "Ege bölgesinin İç Batı Anadolu bölümü içinde yer alır"
+  }
+]

@@ -7,4 +7,4 @@ Ad, soyad, yaş, e-posta, şifre, şifre tekrar bilgilerinin yer alacağı tek s
 
 #### Klasörler
 * project/ Uygulamanın kaynak kodları.
-* screenshots/ Uygulamadan alınan ekran görüntüleri ve App.mp4, App.gif dosyaları.
+* screenshots/ Uygulamadan alınan ekran görüntüleri.

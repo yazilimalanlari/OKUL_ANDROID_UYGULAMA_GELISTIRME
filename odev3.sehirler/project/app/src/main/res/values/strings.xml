@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Şehirler</string>
+    <string name="climateTitle">İklim Özellikleri</string>
+    <string name="geographicInformationTitle">Coğrafya Özellikleri</string>
+</resources>
