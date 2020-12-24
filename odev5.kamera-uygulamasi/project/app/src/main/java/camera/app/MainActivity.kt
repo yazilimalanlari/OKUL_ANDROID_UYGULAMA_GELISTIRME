@@ -1,5 +1,6 @@
 package camera.app
 
+import android.Manifest
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -12,6 +13,8 @@ import android.widget.GridView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 
 /**
  * @author Abdulbaki Zırıh
@@ -22,7 +25,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var openCameraButton: Button
     private lateinit var gridView: GridView
     private lateinit var adapter: GridViewAdapter
-    val REQUEST_IMAGE_CAPTURE = 1
+    private val REQUEST_IMAGE_CAPTURE = 1
+    private val CAMERA_REQUEST_CODE = 1000
     private val images = arrayListOf<Bitmap>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +50,29 @@ class MainActivity : AppCompatActivity() {
             info.text = "Cihaz kamerası algılandı!"
             info.setTextColor(Color.GREEN)
             openCameraButton.visibility = Button.VISIBLE
-            openCameraButton.setOnClickListener { dispatchTakePictureIntent() }
+            openCameraButton.setOnClickListener {
+                if (ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+                    ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST_CODE)
+                } else {
+                    dispatchTakePictureIntent()
+                }
+            }
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        when (requestCode) {
+            CAMERA_REQUEST_CODE -> {
+                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    dispatchTakePictureIntent()
+                } else {
+                    Toast.makeText(this, "Kamera izni olmadan kamera açılamaz.", Toast.LENGTH_LONG).show()
+                }
+            }
         }
     }
 
