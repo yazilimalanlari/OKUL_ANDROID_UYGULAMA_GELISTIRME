@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">İngilizce Kelime Öğretici Kartlar</string>
+    <string name="sign_in">Oturum Aç</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="login">Giriş</string>
+    <string name="sign_up">Hesap Oluştur</string>
+    <string name="email">E-Posta Adresi</string>
+    <string name="register">Kaydol</string>
+    <string name="login_mode">Hesabınız yok mu? Hemen yeni bir hesap oluşturun.</string>
+    <string name="register_mode">Zaten bir hesabınız var mı? Hemen oturum Açın.</string>
+    <string name="choose_word">Kelime Seç</string>
+</resources>
